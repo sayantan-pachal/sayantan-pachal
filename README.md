@@ -42,15 +42,15 @@ I enjoy **learning new technologies**, contributing to **open-source projects**,
 </tr>
 </table>
 
-
-<div align="center">
-  <a href="https://www.linkedin.com/in/sayantan-pachal/" target="_blank">
+<!-- SOCIAL LINKS --> 
+<p align="center">
+  <a href="https://www.linkedin.com/in/sayantan-pachal" target="_blank">
     <img src="https://skillicons.dev/icons?i=linkedin" alt="LinkedIn" width="30"/>
   </a>
   <a href="https://twitter.com/sayantan_pachal" target="_blank">
     <img src="https://skillicons.dev/icons?i=twitter" alt="Twitter" width="30"/>
   </a>
-  <a href="https://www.instagram.com/sayantan_pachal/" target="_blank">
+  <a href="https://www.instagram.com/sayantan_pachal" target="_blank">
     <img src="https://skillicons.dev/icons?i=instagram" alt="Instagram" width="30"/>
   </a>
   <a href="https://discord.com/users/sayantan#1234" target="_blank">
@@ -59,6 +59,4 @@ I enjoy **learning new technologies**, contributing to **open-source projects**,
   <a href="https://codepen.io/sayantan_pachal" target="_blank">
     <img src="https://skillicons.dev/icons?i=codepen" alt="Codepen" width="30"/>
   </a>
-</div>
-
----
+</p>
