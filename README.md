@@ -1,6 +1,6 @@
 <!-- HERO SECTION -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=FFA500&height=200&width=full&section=header&text=Hello,%20I'm%20Sayantan%20&fontSize=60&fontAlignY=35&fontColor=FFFACD" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=FFA500&height=200&width=full&section=header&text=Hello,%20I'm%20Sayantan...%20&fontSize=60&fontAlignY=35&fontColor=FFFACD" />
 </p>
 
 <p align="center">
