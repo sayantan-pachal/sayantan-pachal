@@ -53,7 +53,7 @@ I enjoy **learning new technologies**, contributing to **open-source projects**,
   <a href="https://www.instagram.com/sayantan_pachal" target="_blank">
     <img src="https://skillicons.dev/icons?i=instagram" alt="Instagram" width="30"/>
   </a>
-  <a href="https://discord.com/sayantan_pachal/1078352503973871626" target="_blank">
+  <a href="https://discord.com/users/1078352503973871626" target="_blank">
     <img src="https://skillicons.dev/icons?i=discord" alt="Discord" width="30"/>
   </a>
   <a href="https://codepen.io/sayantan_pachal" target="_blank">
