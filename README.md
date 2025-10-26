@@ -1,7 +1,8 @@
 <!-- HERO SECTION -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=FFA500&height=200&width=full&section=header&text=Hi,%20I'm%20Sayantan...%20&fontSize=60&fontAlignY=35&fontColor=FFFACD" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0072ff,100:00c6ff&height=200&width=full&section=header&text=Hi,%20I'm%20Sayantan...%20&fontSize=60&fontAlignY=35&fontColor=FFFACD" />
 </p>
+
 
 <p align="center">
   <b>CSE Student</b>  • <b>Full-Stack Developer</b> • <b>AI Engineer</b><br>
@@ -34,13 +35,24 @@ I enjoy **learning new technologies**, contributing to **open-source projects**,
 <table align="center">
 <tr>
 <td align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=sayantan-pachal&show_icons=true&theme=radical&hide_border=true" width="400"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=sayantan-pachal&show_icons=true&theme=tokyonight&hide_border=true" height="165"/>
 </td>
 <td align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sayantan-pachal&layout=compact&theme=radical&hide_border=true" width="350"/>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=sayantan-pachal&theme=tokyonight&hide_border=true" height="165"/>
 </td>
 </tr>
 </table>
+<table align="center">
+    <td align="center">
+      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sayantan-pachal&layout=compact&theme=tokyonight&hide_border=true" height="160"/>
+    </td>
+</table>
+
+[![Sayantan's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=sayantan-pachal&theme=tokyo-night)](https://github.com/sayantan-pachal)
+
+<p align="center">
+  <sub><i>Coding is like art, but the paint never dries 🎨</i></sub>
+</p>
 
 <!-- SOCIAL LINKS --> 
 <p align="center">
@@ -59,4 +71,8 @@ I enjoy **learning new technologies**, contributing to **open-source projects**,
   <a href="https://codepen.io/sayantan_pachal" target="_blank">
     <img src="https://skillicons.dev/icons?i=codepen" alt="Codepen" width="30"/>
   </a>
+</p>
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0072ff,100:00c6ff&height=120&section=footer"/>
 </p>
