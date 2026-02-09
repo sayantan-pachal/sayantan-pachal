@@ -13,6 +13,12 @@
   <img src="https://skillicons.dev/icons?i=c,cs,cpp,java,python,javascript,html,css,typescript,react,tailwind,nodejs,git,github,vscode" width="500"/>
 </p>
 
+<p align="center">
+  <a href="https://sayantanpachal.vercel.app">
+    <img src="https://img.shields.io/badge/Portfolio-Website-0A66C2?logo=vercel&logoColor=white" alt="Portfolio Website" width="170" />
+  </a>
+</p>
+
 ---
 <!-- ABOUT ME --> 
 **About Me**
