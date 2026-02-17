@@ -57,7 +57,7 @@ I enjoy **learning new technologies**, contributing to **open-source projects**,
 [![Sayantan's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=sayantan-pachal&theme=tokyo-night)](https://github.com/sayantan-pachal)
 
 <p align="center">
-  <sub><i>Coding is like art, but the paint never dries 🎨</i></sub>
+  Coding is like art, but the paint never dries 🎨
 </p>
 
 <!-- SOCIAL LINKS --> 
