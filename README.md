@@ -14,7 +14,7 @@
 </p>
 
 <p align="center">
-  <a href="https://sayantanpachal.vercel.app">
+  <a href="https://www.sayantanpachal.me">
     <img src="https://img.shields.io/badge/Portfolio-Website-0A66C2?logo=vercel&logoColor=white" alt="Portfolio Website" width="170" />
   </a>
 </p>
