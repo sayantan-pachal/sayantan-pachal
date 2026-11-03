@@ -1,0 +1,295 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1180" height="610" viewBox="0 0 1180 610" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,&#39;Liberation Mono&#39;,monospace" role="img" aria-label="Sayantan Pachal — profile.sh --live (Light Mode)">
+  <defs>
+    <!-- Outer Border Animated Gradient -->
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#2563EB">
+        <animate attributeName="stop-color" values="#2563EB;#06B6D4;#10B981;#2563EB" dur="10s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="0.5" stop-color="#06B6D4">
+        <animate attributeName="stop-color" values="#06B6D4;#10B981;#2563EB;#06B6D4" dur="10s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="1" stop-color="#10B981">
+        <animate attributeName="stop-color" values="#10B981;#2563EB;#06B6D4;#10B981" dur="10s" repeatCount="indefinite" />
+      </stop>
+    </linearGradient>
+
+    <!-- Light Mode Panel Background -->
+    <linearGradient id="panelGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#F8FAFC" />
+      <stop offset="1" stop-color="#EEF2F7" />
+    </linearGradient>
+
+    <!-- Scanline Laser Gradient -->
+    <linearGradient id="scanGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#22D3EE" stop-opacity="0" />
+      <stop offset="50%" stop-color="#22D3EE" stop-opacity="0.35" />
+      <stop offset="100%" stop-color="#A78BFA" stop-opacity="0.8" />
+    </linearGradient>
+
+    <!-- Exact Sp Logo Gradients & Clip Path -->
+    <linearGradient id="blueShade" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0284c7" />
+      <stop offset="100%" stop-color="#06b6d4" />
+    </linearGradient>
+    <linearGradient id="blueToGreen" x1="0%" y1="20%" x2="100%" y2="80%">
+      <stop offset="0%" stop-color="#06b6d4" />
+      <stop offset="55%" stop-color="#10b981" />
+      <stop offset="100%" stop-color="#34d399" />
+    </linearGradient>
+    <linearGradient id="orangeToYellow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f97316" />
+      <stop offset="50%" stop-color="#f59e0b" />
+      <stop offset="100%" stop-color="#facc15" />
+    </linearGradient>
+    <linearGradient id="orbitStroke" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#06b6d4" />
+      <stop offset="50%" stop-color="#10b981" />
+      <stop offset="100%" stop-color="#f59e0b" />
+    </linearGradient>
+    <clipPath id="mainOvalClip">
+      <ellipse cx="250" cy="215" rx="230" ry="152" transform="rotate(14 250 215)" />
+    </clipPath>
+
+    <!-- Glow Filters -->
+    <filter id="glow8" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="8" />
+    </filter>
+    <filter id="glow3" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="3" />
+    </filter>
+    <filter id="txtGlow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="0.9" result="b" />
+      <feMerge>
+        <feMergeNode in="b" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <clipPath id="winClip">
+      <rect x="2" y="2" width="1176" height="606" rx="18" />
+    </clipPath>
+    <clipPath id="mapClip">
+      <rect x="36" y="84" width="400" height="492" rx="10" />
+    </clipPath>
+
+    <rect id="tvlight" width="3.2" height="2.4" rx="0.5" fill="#7C3AED" />
+    <rect id="tvlightCyan" width="3.2" height="2.4" rx="0.5" fill="#06B6D4" />
+
+    <!-- Dithered Pixel Portrait Definition (Modeled on Uploaded Facial Photo) -->
+    <g id="portraitMatrix">
+      <!-- Wavy Hair Crown (Top-Left Parted) -->
+      <path fill="#6D28D9" d="M112 44h68v3h-68zM100 47h90v3h-90zM92 50h104v4h-104zM86 54h114v4h-114zM82 58h122v4h-122zM78 62h128v5h-128zM75 67h134v5h-134zM73 72h52v5h-52zM168 72h42v5h-42zM71 77h36v6h-36zM180 77h32v6h-32zM70 83h26v8h-26zM188 83h24v8h-24zM70 91h20v12h-20zM194 91h18v12h-18zM72 103h14v16h-14zM198 103h14v16h-14z" />
+      <!-- Hair Highlights (Dithered Scanlines) -->
+      <path fill="#8B5CF6" d="M118 46h18v1h-18zM144 46h22v1h-22zM104 49h34v1h-34zM152 49h28v1h-28zM96 53h28v1h-28zM136 53h46v1h-46zM90 57h24v1h-24zM162 57h32v1h-32zM84 61h30v1h-30zM170 61h28v1h-28zM80 66h24v1h-24zM176 66h26v1h-26zM78 71h22v1h-22zM184 71h20v1h-20z" />
+      <!-- Forehead & Facial Structure (Dithered Purple-Lavender Halftone) -->
+      <path fill="#A78BFA" d="M125 72h43v2h-43zM118 75h56v2h-56zM107 78h73v2h-73zM102 81h82v2h-82zM96 84h92v2h-92zM94 87h96v2h-96zM92 90h100v2h-100zM90 93h104v2h-104zM90 96h104v2h-104zM90 99h104v2h-104zM90 102h104v2h-104z" />
+      <!-- Eyebrows -->
+      <path fill="#4C1D95" d="M98 105h34v4h-34zM152 105h34v4h-34zM94 107h8v3h-8zM182 107h8v3h-8z" />
+      <!-- Rounded Glasses Frames & Bridge (Signature Detail) -->
+      <path fill="#38BDF8" d="M90 111h46v2h-46zM148 111h46v2h-46zM136 116h12v2h-12zM84 116h6v2h-6zM194 116h6v2h-6zM88 113h2v16h-2zM136 113h2v16h-2zM146 113h2v16h-2zM194 113h2v16h-2zM90 129h44v2h-44zM150 129h42v2h-42zM94 131h36v1h-36zM154 131h34v1h-34z" />
+      <!-- Eyes & Pupils Inside Glasses -->
+      <path fill="#C4B5FD" d="M94 115h38v12h-38zM152 115h38v12h-38z" opacity="0.28" />
+      <path fill="#0F172A" d="M102 118h22v6h-22zM160 118h22v6h-22z" />
+      <path fill="#DDD6FE" d="M110 119h6v4h-6zM168 119h6v4h-6zM104 120h3v2h-3zM162 120h3v2h-3z" />
+      <!-- Ears -->
+      <path fill="#8B5CF6" d="M78 116h8v22h-8zM198 116h8v22h-8zM80 120h4v14h-4zM200 120h4v14h-4z" />
+      <!-- Nose & Cheeks (Scanline Halftone) -->
+      <path fill="#A78BFA" d="M90 133h44v2h-44zM150 133h44v2h-44zM138 120h8v18h-8zM90 136h104v2h-104zM92 139h100v2h-100zM92 142h42v2h-42zM150 142h42v2h-42zM132 140h20v5h-20zM94 145h96v2h-96zM96 148h92v2h-92z" />
+      <path fill="#6D28D9" d="M134 144h6v2h-6zM144 144h6v2h-6zM126 142h4v3h-4zM154 142h4v3h-4z" />
+      <!-- Warm Smile & Teeth -->
+      <path fill="#4C1D95" d="M112 152h60v3h-60zM108 154h68v10h-68zM114 164h56v3h-56z" />
+      <path fill="#F8FAFC" d="M116 155h52v5h-52zM120 160h44v2h-44z" />
+      <path fill="#A78BFA" d="M124 155h1v6h-1zM132 155h1v6h-1zM141 155h1v6h-1zM150 155h1v6h-1zM158 155h1v6h-1z" />
+      <!-- Chin & Jawline -->
+      <path fill="#A78BFA" d="M96 152h12v2h-12zM176 152h12v2h-12zM98 156h10v2h-10zM176 156h10v2h-10zM100 160h12v2h-12zM172 160h12v2h-12zM104 164h10v2h-10zM170 164h10v2h-10zM106 168h72v2h-72zM110 171h64v2h-64zM114 174h56v2h-56zM120 177h44v2h-44zM128 180h28v2h-28z" />
+      <!-- Jaw Shadow & Neck -->
+      <path fill="#6D28D9" d="M108 178h16v3h-16zM160 178h16v3h-16zM116 181h52v3h-52zM124 184h36v3h-36z" />
+      <path fill="#8B5CF6" d="M114 187h56v2h-56zM112 190h60v2h-60zM110 193h64v2h-64zM108 196h68v2h-68zM108 199h68v2h-68zM112 202h60v2h-60zM118 205h48v2h-48z" />
+      <!-- Crew-Neck T-Shirt & Shoulders (Dithered Matrix) -->
+      <path fill="#4C1D95" d="M96 202h14v6h-14zM174 202h14v6h-14zM80 206h124v4h-124zM64 210h156v4h-156zM48 214h188v5h-188zM34 219h216v5h-216zM22 224h240v6h-240zM14 230h256v8h-256zM8 238h268v10h-268zM4 248h276v12h-276zM2 260h280v40h-280z" />
+      <!-- T-Shirt Scanline Texture & Chest Graphic -->
+      <path fill="#7C3AED" d="M70 212h144v1h-144zM54 216h176v1h-176zM40 220h204v1h-204zM28 224h228v1h-228zM18 228h248v1h-248zM12 232h260v1h-260zM10 236h264v1h-264zM8 240h268v1h-268zM8 244h268v1h-268zM8 248h268v1h-268zM8 252h268v1h-268zM8 256h268v1h-268zM8 260h268v1h-268zM8 264h268v1h-268zM8 268h268v1h-268zM8 272h268v1h-268zM8 276h268v1h-268zM8 280h268v1h-268zM8 284h268v1h-268zM8 288h268v1h-268zM8 292h268v1h-268zM8 296h268v1h-268z" opacity="0.65" />
+      <!-- Geometric Deer / Chest Emblem Detail from Photo -->
+      <path fill="#38BDF8" d="M92 266h100v34h-100z" opacity="0.22" />
+      <path fill="#F59E0B" d="M134 252h4v10h-4zM152 250h4v12h-4zM128 256h6v4h-6zM156 254h6v4h-6zM136 262h18v8h-18zM132 270h22v10h-22zM136 280h16v12h-16zM140 292h12v8h-12zM98 276h22v2h-22zM98 281h28v2h-28zM98 286h20v2h-20z" />
+    </g>
+  </defs>
+
+  <rect x="2" y="2" width="1176" height="606" rx="18" fill="#FFFFFF" />
+
+  <g clip-path="url(#winClip)">
+    <!-- Window Background & Top Bar -->
+    <rect x="2" y="2" width="1176" height="606" fill="url(#panelGrad)" />
+    <rect x="2" y="2" width="1176" height="46" fill="#F1F5F9" />
+    <line x1="2" y1="48" x2="1178" y2="48" stroke="rgba(15,23,42,0.10)" />
+    <circle cx="30" cy="25.0" r="5.5" fill="#ff5f56" />
+    <circle cx="50" cy="25.0" r="5.5" fill="#ffbd2e" />
+    <circle cx="70" cy="25.0" r="5.5" fill="#27c93f" />
+    <text x="590.0" y="29.0" text-anchor="middle" font-size="12" fill="#475569">pachalsayantan@gmail.com - % ./profile.sh --live</text>
+
+    <!-- Left Panel: VISUAL.MAP -->
+    <text x="38" y="74" font-size="10" letter-spacing="3" fill="#64748B" font-weight="600">VISUAL.MAP</text>
+    <text x="434" y="74" text-anchor="end" font-size="10" letter-spacing="1.5" fill="#0891B2">SYNC: SP.ORBITAL</text>
+    <rect x="36" y="84" width="400" height="492" rx="10" fill="none" stroke="#22D3EE" stroke-width="2" opacity="0.45" filter="url(#glow3)" />
+    <rect x="36" y="84" width="400" height="492" rx="10" fill="#0A101F" stroke="rgba(34,211,238,0.35)" />
+
+    <g clip-path="url(#mapClip)">
+      <!-- Subtle Background Cyber Grid -->
+      <g stroke="rgba(34,211,238,0.06)" stroke-width="1">
+        <line x1="36" y1="164" x2="436" y2="164" />
+        <line x1="36" y1="244" x2="436" y2="244" />
+        <line x1="36" y1="324" x2="436" y2="324" />
+        <line x1="36" y1="404" x2="436" y2="404" />
+        <line x1="36" y1="484" x2="436" y2="484" />
+        <line x1="116" y1="84" x2="116" y2="576" />
+        <line x1="196" y1="84" x2="196" y2="576" />
+        <line x1="276" y1="84" x2="276" y2="576" />
+        <line x1="356" y1="84" x2="356" y2="576" />
+      </g>
+
+      <!-- STAGE 1: Boot-In Pixel Portrait (0.2s -> 3.2s) -->
+      <g transform="translate(59, 98) scale(1.25, 1.42)" opacity="0">
+        <animate attributeName="opacity" values="0;1" dur="1.2s" begin="0.2s" fill="freeze" />
+        <set attributeName="opacity" to="0" begin="3.2s" />
+        <use href="#portraitMatrix" />
+      </g>
+
+      <!-- STAGE 2: Looping Pixel Portrait (Active 0.000->0.194 and 0.906->1.000 of 13.9s cycle) -->
+      <g transform="translate(59, 98) scale(1.25, 1.42)" opacity="0">
+        <set attributeName="opacity" to="1" begin="3.2s" />
+        <g>
+          <animate attributeName="opacity" values="1;1;0;0;0;0;0;0;1" keyTimes="0.000;0.194;0.288;0.432;0.525;0.669;0.763;0.906;1.000" dur="13.9s" begin="3.2s" repeatCount="indefinite" />
+          <animateTransform attributeName="transform" type="translate" values="0 0;0 0;0 -18;0 -18;0 -18;0 -18;0 -18;0 18;0 0" keyTimes="0.000;0.194;0.288;0.432;0.525;0.669;0.763;0.906;1.000" dur="13.9s" begin="3.2s" repeatCount="indefinite" />
+          <use href="#portraitMatrix" />
+        </g>
+      </g>
+
+      <!-- STAGE 3: Particle Swarm Transition (#tvlight) -->
+      <g transform="translate(59, 98) scale(1.25, 1.42)">
+        <use href="#tvlight" opacity="0">
+          <animate attributeName="opacity" values="0;0;1;0.35;0.2;0.35;1;0;0" keyTimes="0.000;0.180;0.240;0.320;0.525;0.730;0.820;0.920;1.000" dur="13.9s" begin="3.2s" repeatCount="indefinite" />
+          <animateTransform attributeName="transform" type="translate" values="98 112;98 112;142 150;160 155;140 165;120 155;142 150;98 112;98 112" keyTimes="0.000;0.180;0.240;0.320;0.525;0.730;0.820;0.920;1.000" dur="13.9s" begin="3.2s" repeatCount="indefinite" />
+        </use>
+        <use href="#tvlightCyan" opacity="0">
+          <animate attributeName="opacity" values="0;0;1;0.35;0.2;0.35;1;0;0" keyTimes="0.000;0.180;0.240;0.320;0.525;0.730;0.820;0.920;1.000" dur="13.9s" begin="3.2s" repeatCount="indefinite" />
+          <animateTransform attributeName="transform" type="translate" values="184 112;184 112;152 160;130 170;150 145;170 165;152 160;184 112;184 112" keyTimes="0.000;0.180;0.240;0.320;0.525;0.730;0.820;0.920;1.000" dur="13.9s" begin="3.2s" repeatCount="indefinite" />
+        </use>
+        <use href="#tvlight" opacity="0">
+          <animate attributeName="opacity" values="0;0;1;0.4;0.2;0.4;1;0;0" keyTimes="0.000;0.180;0.240;0.320;0.525;0.730;0.820;0.920;1.000" dur="13.9s" begin="3.2s" repeatCount="indefinite" />
+          <animateTransform attributeName="transform" type="translate" values="140 60;140 60;210 110;235 95;220 105;235 95;210 110;140 60;140 60" keyTimes="0.000;0.180;0.240;0.320;0.525;0.730;0.820;0.920;1.000" dur="13.9s" begin="3.2s" repeatCount="indefinite" />
+        </use>
+        <use href="#tvlightCyan" opacity="0">
+          <animate attributeName="opacity" values="0;0;1;0.4;0.2;0.4;1;0;0" keyTimes="0.000;0.180;0.240;0.320;0.525;0.730;0.820;0.920;1.000" dur="13.9s" begin="3.2s" repeatCount="indefinite" />
+          <animateTransform attributeName="transform" type="translate" values="142 260;142 260;60 220;45 230;55 220;45 230;60 220;142 260;142 260" keyTimes="0.000;0.180;0.240;0.320;0.525;0.730;0.820;0.920;1.000" dur="13.9s" begin="3.2s" repeatCount="indefinite" />
+        </use>
+        <use href="#tvlight" opacity="0">
+          <animate attributeName="opacity" values="0;0;1;0.3;0.15;0.3;1;0;0" keyTimes="0.000;0.180;0.240;0.320;0.525;0.730;0.820;0.920;1.000" dur="13.9s" begin="3.2s" repeatCount="indefinite" />
+          <animateTransform attributeName="transform" type="translate" values="70 220;70 220;115 175;105 180;115 170;105 180;115 175;70 220;70 220" keyTimes="0.000;0.180;0.240;0.320;0.525;0.730;0.820;0.920;1.000" dur="13.9s" begin="3.2s" repeatCount="indefinite" />
+        </use>
+        <use href="#tvlightCyan" opacity="0">
+          <animate attributeName="opacity" values="0;0;1;0.3;0.15;0.3;1;0;0" keyTimes="0.000;0.180;0.240;0.320;0.525;0.730;0.820;0.920;1.000" dur="13.9s" begin="3.2s" repeatCount="indefinite" />
+          <animateTransform attributeName="transform" type="translate" values="210 220;210 220;175 175;185 170;175 180;185 170;175 175;210 220;210 220" keyTimes="0.000;0.180;0.240;0.320;0.525;0.730;0.820;0.920;1.000" dur="13.9s" begin="3.2s" repeatCount="indefinite" />
+        </use>
+      </g>
+
+      <!-- STAGE 4: Exact User-Provided "Sp" Orbital Logo SVG (Materializes 0.250 -> 0.820 of cycle) -->
+      <g opacity="0">
+        <set attributeName="opacity" to="1" begin="3.2s" />
+        <g opacity="0">
+          <animate attributeName="opacity" values="0;0;1;1;1;1;0;0" keyTimes="0.000;0.220;0.300;0.450;0.650;0.760;0.850;1.000" dur="13.9s" begin="3.2s" repeatCount="indefinite" />
+          <animateTransform attributeName="transform" type="translate" values="0 14;0 14;0 0;0 -4;0 0;0 0;0 -14;0 14" keyTimes="0.000;0.220;0.300;0.525;0.700;0.760;0.850;1.000" dur="13.9s" begin="3.2s" repeatCount="indefinite" />
+          <g transform="translate(51, 178) scale(0.74)">
+            <!-- 1. Clipped 3-Zone Main Body -->
+            <g clip-path="url(#mainOvalClip)">
+              <!-- Top-Left Zone (Blue Shaded) -->
+              <rect x="-50" y="-50" width="600" height="265" transform="rotate(-35 255 210)" fill="url(#blueShade)" />
+              <!-- Bottom-Right Zone (Orange to Yellow) -->
+              <rect x="-50" y="210" width="600" height="300" transform="rotate(-35 255 210)" fill="url(#orangeToYellow)" />
+              <!-- Center Overlapping Zone (Blue to Green Gradient) -->
+              <ellipse cx="255" cy="210" rx="225" ry="132" transform="rotate(-35 255 210)" fill="url(#blueToGreen)" stroke="#050b14" stroke-width="2" stroke-opacity="0.25" />
+            </g>
+            <!-- Subtle Outer Border on Main Oval -->
+            <ellipse cx="250" cy="215" rx="230" ry="152" transform="rotate(14 250 215)" fill="none" stroke="#ffffff" stroke-opacity="0.2" stroke-width="2" />
+            <!-- 2. Tilted Orbital Ring -->
+            <ellipse cx="255" cy="210" rx="225" ry="132" transform="rotate(-35 255 210)" fill="none" stroke="url(#orbitStroke)" stroke-width="6" />
+            <!-- 3. Top-Right 4-Point Star (Orange-Yellow Gradient) -->
+            <path d="M 0 -38 Q 3 -7 38 0 Q 3 7 0 38 Q -3 7 -38 0 Q -3 -7 0 -38 Z" transform="translate(448, 92)" fill="url(#orangeToYellow)" stroke="#050b14" stroke-width="2.5" />
+            <!-- 4. Bottom-Left 4-Point Star (Cyan-Green Gradient) -->
+            <path d="M 0 -38 Q 3 -7 38 0 Q 3 7 0 38 Q -3 7 -38 0 Q -3 -7 0 -38 Z" transform="translate(62, 336)" fill="url(#blueToGreen)" stroke="#050b14" stroke-width="2.5" />
+            <!-- 5. Center "Sp" Serif Typography -->
+            <text x="252" y="262" text-anchor="middle" font-family="Georgia, &#39;Times New Roman&#39;, Times, serif" font-size="175" font-weight="500" fill="#050b14" letter-spacing="-2">Sp</text>
+          </g>
+        </g>
+      </g>
+
+      <!-- Active HUD Laser Scanline -->
+      <rect x="36" y="84" width="400" height="3" fill="url(#scanGrad)" opacity="0.65">
+        <animate attributeName="y" values="84;570;84" dur="6.5s" repeatCount="indefinite" />
+      </rect>
+
+      <!-- Viewport Bottom Telemetry Bar -->
+      <rect x="36" y="548" width="400" height="28" fill="rgba(6, 11, 25, 0.82)" />
+      <line x1="36" y1="548" x2="436" y2="548" stroke="rgba(34,211,238,0.25)" />
+      <text x="50" y="566" font-size="10" fill="#22D3EE" letter-spacing="1.5">ID: SAYANTAN.PACHAL</text>
+      <text x="422" y="566" text-anchor="end" font-size="10" fill="#A78BFA" letter-spacing="1.5">ORION // LAB</text>
+    </g>
+
+    <!-- Corner HUD Brackets -->
+    <path d="M 50 84 L 36 84 L 36 98" fill="none" stroke="#06B6D4" stroke-width="2" opacity="0.8" />
+    <path d="M 422 84 L 436 84 L 436 98" fill="none" stroke="#06B6D4" stroke-width="2" opacity="0.8" />
+    <path d="M 50 576 L 36 576 L 36 562" fill="none" stroke="#06B6D4" stroke-width="2" opacity="0.8" />
+    <path d="M 422 576 L 436 576 L 436 562" fill="none" stroke="#06B6D4" stroke-width="2" opacity="0.8" />
+
+    <!-- Right Panel: SYSTEM.INFO -->
+    <text x="470" y="106" font-size="13" letter-spacing="2" fill="#0891B2" filter="url(#txtGlow)" font-weight="700">SYSTEM.INFO</text>
+    <line x1="572" y1="102" x2="1061" y2="102" stroke="rgba(15,23,42,0.10)" />
+    <text x="1125" y="106" text-anchor="end" font-size="12" fill="#DC2626" font-weight="700">
+      <tspan>●</tspan> LIVE
+      <animate attributeName="opacity" values="1;0.25;1" dur="1.6s" repeatCount="indefinite" />
+    </text>
+
+    <!-- Email Pill -->
+    <g opacity="0">
+      <animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="0.6s" fill="freeze" />
+      <a href="mailto:pachalsayantan@gmail.com" target="_blank">
+        <rect x="470" y="122" width="232" height="20" rx="4" fill="#DBEAFE" />
+        <text x="479" y="136" font-size="14" font-weight="700" fill="#1D4ED8">pachalsayantan@gmail.com</text>
+      </a>
+      <line x1="712" y1="132" x2="1125" y2="132" stroke="rgba(15,23,42,0.10)" />
+    </g>
+
+    <!-- System Info Rows -->
+    <g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="0.90s" fill="freeze" /><animateTransform attributeName="transform" type="translate" values="-8 0;0 0" dur="0.4s" begin="0.90s" fill="freeze" /><text x="470" y="158" font-size="14" xml:space="preserve"><tspan fill="#0891B2">Subject </tspan><tspan fill="rgba(15,23,42,0.25)">......................................................</tspan><tspan fill="#0F172A" font-weight="600"> Sayantan Pachal</tspan></text></g>
+    <g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="1.02s" fill="freeze" /><animateTransform attributeName="transform" type="translate" values="-8 0;0 0" dur="0.4s" begin="1.02s" fill="freeze" /><text x="470" y="178" font-size="14" xml:space="preserve"><tspan fill="#0891B2">Role </tspan><tspan fill="rgba(15,23,42,0.25)">...........</tspan><tspan fill="#0F172A" font-weight="600"> CS Engineering Student | Full Stack Developer | AI & 3D Web</tspan></text></g>
+    <g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="1.14s" fill="freeze" /><animateTransform attributeName="transform" type="translate" values="-8 0;0 0" dur="0.4s" begin="1.14s" fill="freeze" /><text x="470" y="198" font-size="14" xml:space="preserve"><tspan fill="#0891B2">Origin </tspan><tspan fill="rgba(15,23,42,0.25)">............................................</tspan><tspan fill="#0F172A" font-weight="600"> Howrah, West Bengal, India</tspan></text></g>
+    <g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="1.26s" fill="freeze" /><animateTransform attributeName="transform" type="translate" values="-8 0;0 0" dur="0.4s" begin="1.26s" fill="freeze" /><text x="470" y="218" font-size="14" xml:space="preserve"><tspan fill="#0891B2">Education </tspan><tspan fill="rgba(15,23,42,0.25)">.......</tspan><tspan fill="#0F172A" font-weight="600"> B.Tech CSE, B. P. Poddar Institute of Mgmt. & Tech (BPPIMT)</tspan></text></g>
+    <g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="1.38s" fill="freeze" /><animateTransform attributeName="transform" type="translate" values="-8 0;0 0" dur="0.4s" begin="1.38s" fill="freeze" /><text x="470" y="238" font-size="14" xml:space="preserve"><tspan fill="#0891B2">Status </tspan><tspan fill="rgba(15,23,42,0.25)">.....................</tspan><tspan fill="#0F172A" font-weight="600"> Building Full-Stack, 3D Web & Applied AI Systems</tspan></text></g>
+    <g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="1.50s" fill="freeze" /><animateTransform attributeName="transform" type="translate" values="-8 0;0 0" dur="0.4s" begin="1.50s" fill="freeze" /><text x="470" y="258" font-size="14" xml:space="preserve"><tspan fill="#0891B2"></tspan><tspan fill="rgba(15,23,42,0.25)">.....................................</tspan><tspan fill="#0F172A" font-weight="600"> Open to Software Engineering Internships</tspan></text></g>
+    <g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="1.62s" fill="freeze" /><animateTransform attributeName="transform" type="translate" values="-8 0;0 0" dur="0.4s" begin="1.62s" fill="freeze" /><text x="470" y="278" font-size="14" xml:space="preserve"><tspan fill="#0891B2">Organization </tspan><tspan fill="rgba(15,23,42,0.25)">.................................</tspan><tspan fill="#0F172A" font-weight="600"> Founder & Core Architect, ORION</tspan></text></g>
+    <g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="1.74s" fill="freeze" /><animateTransform attributeName="transform" type="translate" values="-8 0;0 0" dur="0.4s" begin="1.74s" fill="freeze" /><text x="470" y="300" font-size="14" xml:space="preserve"><tspan fill="#0891B2">ToolChain </tspan><tspan fill="rgba(15,23,42,0.25)">............</tspan><tspan fill="#0F172A" font-weight="600"> React, Node.js, Express, Three.js, FastAPI, Git, GitHub</tspan></text></g>
+    <g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="1.86s" fill="freeze" /><animateTransform attributeName="transform" type="translate" values="-8 0;0 0" dur="0.4s" begin="1.86s" fill="freeze" /><text x="470" y="320" font-size="14" xml:space="preserve"><tspan fill="#0891B2"></tspan><tspan fill="rgba(15,23,42,0.25)">.................</tspan><tspan fill="#0F172A" font-weight="600"> VS Code, Vercel, Render, Firebase, MongoDB Atlas, Cloudinary</tspan></text></g>
+    <g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="1.98s" fill="freeze" /><animateTransform attributeName="transform" type="translate" values="-8 0;0 0" dur="0.4s" begin="1.98s" fill="freeze" /><text x="470" y="340" font-size="14" xml:space="preserve"><tspan fill="#0891B2">Core.Lang </tspan><tspan fill="rgba(15,23,42,0.25)">........................</tspan><tspan fill="#0F172A" font-weight="600"> Java, C++, C, Python, JavaScript, TypeScript</tspan></text></g>
+    <g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="2.10s" fill="freeze" /><animateTransform attributeName="transform" type="translate" values="-8 0;0 0" dur="0.4s" begin="2.10s" fill="freeze" /><text x="470" y="360" font-size="14" xml:space="preserve"><tspan fill="#0891B2">Core.Frontend </tspan><tspan fill="rgba(15,23,42,0.25)">.................</tspan><tspan fill="#0F172A" font-weight="600"> React.js, Tailwind CSS, Three.js, R3F, HTML/CSS</tspan></text></g>
+    <g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="2.22s" fill="freeze" /><animateTransform attributeName="transform" type="translate" values="-8 0;0 0" dur="0.4s" begin="2.22s" fill="freeze" /><text x="470" y="380" font-size="14" xml:space="preserve"><tspan fill="#0891B2">Core.Backend </tspan><tspan fill="rgba(15,23,42,0.25)">..............</tspan><tspan fill="#0F172A" font-weight="600"> Node.js, Express.js, Flask, REST APIs, Apps Script</tspan></text></g>
+    <g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="2.34s" fill="freeze" /><animateTransform attributeName="transform" type="translate" values="-8 0;0 0" dur="0.4s" begin="2.34s" fill="freeze" /><text x="470" y="400" font-size="14" xml:space="preserve"><tspan fill="#0891B2">Core.Database </tspan><tspan fill="rgba(15,23,42,0.25)">....................</tspan><tspan fill="#0F172A" font-weight="600"> MongoDB Atlas, Mongoose, Firebase Firestore</tspan></text></g>
+    <g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="2.46s" fill="freeze" /><animateTransform attributeName="transform" type="translate" values="-8 0;0 0" dur="0.4s" begin="2.46s" fill="freeze" /><text x="470" y="420" font-size="14" xml:space="preserve"><tspan fill="#0891B2">Core.Infra </tspan><tspan fill="rgba(15,23,42,0.25)">...........................</tspan><tspan fill="#0F172A" font-weight="600"> Git, GitHub, Vercel, Render, Custom DNS</tspan></text></g>
+
+    <!-- Contact Section -->
+    <g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="2.60s" fill="freeze" /><text x="470" y="444" font-size="14" xml:space="preserve"><tspan fill="#475569">- Contact </tspan><tspan fill="rgba(15,23,42,0.25)">---------------------------------------------------------------------</tspan></text></g>
+    <g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="2.72s" fill="freeze" /><animateTransform attributeName="transform" type="translate" values="-8 0;0 0" dur="0.4s" begin="2.72s" fill="freeze" /><a href="mailto:pachalsayantan@gmail.com" target="_blank"><text x="470" y="466" font-size="14" xml:space="preserve"><tspan fill="#0891B2">Grid.Mail </tspan><tspan fill="rgba(15,23,42,0.25)">....................................</tspan><tspan fill="#0F172A" font-weight="600"> mailto:pachalsayantan@gmail.com</tspan></text></a></g>
+    <g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="2.84s" fill="freeze" /><animateTransform attributeName="transform" type="translate" values="-8 0;0 0" dur="0.4s" begin="2.84s" fill="freeze" /><a href="https://www.sayantanpachal.me" target="_blank"><text x="470" y="487" font-size="14" xml:space="preserve"><tspan fill="#0891B2">Grid.Portfolio </tspan><tspan fill="rgba(15,23,42,0.25)">.................................</tspan><tspan fill="#0F172A" font-weight="600"> https://www.sayantanpachal.me</tspan></text></a></g>
+    <g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="2.96s" fill="freeze" /><animateTransform attributeName="transform" type="translate" values="-8 0;0 0" dur="0.4s" begin="2.96s" fill="freeze" /><a href="https://www.linkedin.com/in/sayantan-pachal/" target="_blank"><text x="470" y="508" font-size="14" xml:space="preserve"><tspan fill="#0891B2">Grid.LinkedIn </tspan><tspan fill="rgba(15,23,42,0.25)">...................</tspan><tspan fill="#0F172A" font-weight="600"> https://www.linkedin.com/in/sayantan-pachal/</tspan></text></a></g>
+    <g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="3.08s" fill="freeze" /><animateTransform attributeName="transform" type="translate" values="-8 0;0 0" dur="0.4s" begin="3.08s" fill="freeze" /><a href="https://github.com/sayantan-pachal" target="_blank"><text x="470" y="529" font-size="14" xml:space="preserve"><tspan fill="#0891B2">Grid.GitHub </tspan><tspan fill="rgba(15,23,42,0.25)">...............................</tspan><tspan fill="#0F172A" font-weight="600"> https://github.com/sayantan-pachal</tspan></text></a></g>
+    <g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="3.20s" fill="freeze" /><animateTransform attributeName="transform" type="translate" values="-8 0;0 0" dur="0.4s" begin="3.20s" fill="freeze" /><a href="https://www.instagram.com/sayantanpachal.dev/" target="_blank"><text x="470" y="550" font-size="14" xml:space="preserve"><tspan fill="#0891B2">Grid.Instagram </tspan><tspan fill="rgba(15,23,42,0.25)">.................</tspan><tspan fill="#0F172A" font-weight="600"> https://www.instagram.com/sayantanpachal.dev/</tspan></text></a></g>
+
+    <!-- Footer Prompt -->
+    <g opacity="0">
+      <animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="3.34s" fill="freeze" />
+      <text x="470" y="576" font-size="14" fill="#475569">▸ More about me & projects below in README ↓ <tspan fill="#06B6D4">█<animate attributeName="fill-opacity" values="1;0;1" dur="1s" repeatCount="indefinite" /></tspan></text>
+    </g>
+  </g>
+
+  <!-- Glowing Outer Frame -->
+  <rect x="3" y="3" width="1174" height="604" rx="17" fill="none" stroke="url(#accent)" stroke-width="3" opacity="0.55" filter="url(#glow8)" />
+  <rect x="3" y="3" width="1174" height="604" rx="17" fill="none" stroke="url(#accent)" stroke-width="1.6" />
+</svg>
