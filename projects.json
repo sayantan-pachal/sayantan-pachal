@@ -22,7 +22,7 @@
     "tags": ["React", "TailwindCSS", "Vercel"],
     "stars": 6,
     "updated": "updated 1mo ago",
-    "image": "logo.svg",
+    "image": "./logo.svg",
     "icon_text": "Sp",
     "icon_bg": "#0284C7",
     "languages": [

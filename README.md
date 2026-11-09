@@ -15,8 +15,8 @@
     Passionate about <b>problem-first software engineering</b>, resilient full-stack architectures, interactive 3D web systems, and applied AI.
   </p>
 
-  <p>
-    <img src="https://skillicons.dev/icons?i=java,cpp,python,javascript,typescript,react,threejs,tailwind,nodejs,express,fastapi,mongodb,firebase,git,github,vscode" width="620" alt="Tech Stack" />
+  <p align="center">
+    <img src="https://skillicons.dev/icons?i=java,cpp,python,javascript,typescript,react,threejs,tailwind,nodejs,express,fastapi,mongodb,firebase,git,github" width="620" alt="Tech Stack" />
   </p>
 
   <p>
