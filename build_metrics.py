@@ -34,11 +34,25 @@ query($login: String!) {
 """
 
 def fetch_data():
+    if not TOKEN:
+        raise RuntimeError("GH_PAT is not set.")
+
+    headers = {"Authorization": "Bearer " + TOKEN}
     req = urllib.request.Request("https://api.github.com/graphql", 
                                  data=json.dumps({"query": query, "variables": {"login": USERNAME}}).encode("utf-8"), 
-                                 headers=HEADERS, method="POST")
+                                 headers=headers, method="POST")
     with urllib.request.urlopen(req) as response:
-        return json.loads(response.read().decode())["data"]["user"]
+        payload = json.loads(response.read().decode())
+
+    if payload.get("errors"):
+        message = "; ".join(error.get("message", "Unknown GraphQL error") for error in payload["errors"])
+        raise RuntimeError(f"GitHub GraphQL query failed: {message}")
+
+    user_data = payload.get("data", {}).get("user")
+    if not user_data:
+        raise RuntimeError("GitHub GraphQL response did not include user data.")
+
+    return user_data
 
 def format_date_range(start_str, end_str):
     if not start_str or not end_str: return "Present"
