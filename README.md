@@ -1,8 +1,4 @@
-<!-- HERO SECTION -->
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0072ff,100:00c6ff&height=200&width=full&section=header&text=Hi,%20I'm%20Sayantan...%20&fontSize=60&fontAlignY=35&fontColor=FFFACD" />
-</p>
-
+<!-- HERO TERMINAL (profile.sh) -->
 <div align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./profile-dark.svg" />
@@ -11,90 +7,85 @@
   </picture>
 </div>
 
+<br />
 
-<p align="center">
-  <b>CSE Student</b>  • <b>Full-Stack Developer</b> • <b>AI Engineer</b><br>
-  I am a <b>self-taught</b> developer from India 🇮🇳, passionate about clean UI, scalable systems and applied AI.
-</p>
-<!-- TECH STACK -->
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=c,cs,cpp,java,python,javascript,html,css,typescript,react,tailwind,nodejs,git,github,vscode" width="500"/>
-</p>
+<!-- ENGINEERING MINDSET & TECH STACK -->
+<div align="center">
+  <p>
+    Passionate about <b>problem-first software engineering</b>, resilient full-stack architectures, interactive 3D web systems, and applied AI.
+  </p>
 
-<p align="center">
-  <a href="https://www.sayantanpachal.me">
-    <img src="https://img.shields.io/badge/Portfolio-Website-0A66C2?logo=vercel&logoColor=white" alt="Portfolio Website" width="170" />
-  </a>
-</p>
+  <p>
+    <img src="https://skillicons.dev/icons?i=java,cpp,python,javascript,typescript,react,threejs,tailwind,nodejs,express,fastapi,mongodb,firebase,git,github,vscode" width="620" alt="Tech Stack" />
+  </p>
 
----
-<!-- ABOUT ME --> 
-**About Me**
+  <p>
+    <a href="https://www.sayantanpachal.me" target="_blank">
+      <img src="https://img.shields.io/badge/Portfolio-sayantanpachal.me-06B6D4?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" />
+    </a>
+    <a href="https://www.linkedin.com/in/sayantan-pachal/" target="_blank">
+      <img src="https://img.shields.io/badge/LinkedIn-Sayantan_Pachal-2563EB?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+    </a>
+    <a href="mailto:pachalsayantan@gmail.com">
+      <img src="https://img.shields.io/badge/Email-Contact_Me-10B981?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+    </a>
+  </p>
+</div>
 
-I love solving **algorithmic problems**, exploring **AI**, and creating projects that combine **practical functionality with modern UI/UX**.
+<br />
 
-- 🎓 **CSE Student** at B. P. Poddar Institute of Management & Technology  
-- 💻 **Full-Stack Web Development** with **React** & **Tailwind CSS**  
-- 🧠 Strong foundation in **Data Structures & Algorithms** using **Java & C++**  
-- 📚 **Certifications:**  
-  <img src="https://img.shields.io/badge/Responsive%20Web%20Design-FCC-4BC0D9?logo=freecodecamp&logoColor=white" /> 
-  <img src="https://img.shields.io/badge/JavaScript%20Algorithms-FCC-F7DF1E?logo=javascript&logoColor=black" /> 
-  <img src="https://img.shields.io/badge/Front%20End%20Libraries-FCC-4BC0D9?logo=react&logoColor=white" /> 
-  <img src="https://img.shields.io/badge/Scientific%20Computing-Python-3776AB?logo=python&logoColor=white" /> 
-  <img src="https://img.shields.io/badge/Foundational%20C%23-Microsoft-68217A?logo=c-sharp&logoColor=white" />
-  
-I enjoy **learning new technologies**, contributing to **open-source projects**, and collaborating with other developers to **build impactful software**.
-
-<!-- STATS SIDE BY SIDE -->
+<!-- GITHUB TELEMETRY (stats.sh, streak.sh, langs.sh) -->
 <table align="center" style="border: none; background: transparent;">
   <tr>
-    <td align="center" style="border: none; padding: 5px;">
-      <img src="./assets/stats.svg" height="165" alt="GitHub Stats"/>
+    <td align="center" style="border: none; padding: 6px;">
+      <img src="./assets/stats.svg" height="180" alt="GitHub Stats" />
     </td>
-    <td align="center" style="border: none; padding: 5px;">
-      <img src="./assets/streak.svg" height="165" alt="GitHub Streak"/>
+    <td align="center" style="border: none; padding: 6px;">
+      <img src="./assets/streak.svg" height="180" alt="GitHub Streak" />
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2" align="center" style="border: none; padding: 6px;">
+      <img src="./assets/langs.svg" height="175" alt="Top Languages" />
     </td>
   </tr>
 </table>
 
-<table align="center" style="border: none; background: transparent;">
-  <tr>
-    <td align="center" style="border: none; padding: 5px;">
-      <img src="./assets/langs.svg" height="165" alt="Top Languages"/>
-    </td>
-  </tr>
-</table>
+<br />
 
-[![Sayantan's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=sayantan-pachal&theme=tokyo-night)](https://github.com/sayantan-pachal)
-
+<!-- PROJECTS SHOWCASE (projects.sh) -->
 <p align="center">
-  Coding is like art, but the paint never dries 🎨
+  <img src="./assets/projects.svg" width="100%" alt="Sayantan Pachal — projects.sh --all" />
 </p>
 
-<!-- SOCIAL LINKS --> 
-<p align="center">
-  <a href="https://www.linkedin.com/in/sayantan-pachal" target="_blank">
-    <img src="https://skillicons.dev/icons?i=linkedin" alt="LinkedIn" width="30"/>
-  </a>
-  <a href="https://twitter.com/sayantan_pachal" target="_blank">
-    <img src="https://skillicons.dev/icons?i=twitter" alt="Twitter" width="30"/>
-  </a>
-  <a href="https://www.instagram.com/sayantan_pachal" target="_blank">
-    <img src="https://skillicons.dev/icons?i=instagram" alt="Instagram" width="30"/>
-  </a>
-  <a href="https://discord.com/users/1078352503973871626" target="_blank">
-    <img src="https://skillicons.dev/icons?i=discord" alt="Discord" width="30"/>
-  </a>
-  <a href="https://codepen.io/sayantan_pachal" target="_blank">
-    <img src="https://skillicons.dev/icons?i=codepen" alt="Codepen" width="30"/>
-  </a>
-</p>
+<br />
 
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0072ff,100:00c6ff&height=120&section=footer"/>
-</p>
+<!-- CONTRIBUTION SNAKE / ACTIVITY -->
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/sayantan-pachal/sayantan-pachal/output/snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/sayantan-pachal/sayantan-pachal/output/snake-light.svg" />
+    <img alt="GitHub Contribution Snake" src="https://raw.githubusercontent.com/sayantan-pachal/sayantan-pachal/output/snake-dark.svg" width="100%" />
+  </picture>
+</div>
 
+<br />
 
-<p align="center">
-  <img src="./assets/projects.svg" width="100%" alt="Sayantan Pachal Projects List" />
-</p>
+<!-- FOOTER & SOCIALS -->
+<div align="center">
+  <p><i>"Coding is like art, but the paint never dries."</i> 🎨</p>
+  <p>
+    <a href="https://www.linkedin.com/in/sayantan-pachal" target="_blank">
+      <img src="https://skillicons.dev/icons?i=linkedin" alt="LinkedIn" width="28" />
+    </a>&nbsp;&nbsp;
+    <a href="https://twitter.com/sayantan_pachal" target="_blank">
+      <img src="https://skillicons.dev/icons?i=twitter" alt="Twitter" width="28" />
+    </a>&nbsp;&nbsp;
+    <a href="https://www.instagram.com/sayantan_pachal" target="_blank">
+      <img src="https://skillicons.dev/icons?i=instagram" alt="Instagram" width="28" />
+    </a>&nbsp;&nbsp;
+    <a href="https://discord.com/users/1078352503973871626" target="_blank">
+      <img src="https://skillicons.dev/icons?i=discord" alt="Discord" width="28" />
+    </a>
+  </p>
+</div>
