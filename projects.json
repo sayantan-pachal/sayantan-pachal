@@ -1,0 +1,98 @@
+[
+  {
+    "repo": "sayantan-pachal/SmartKrishi",
+    "title": "SmartKrishi",
+    "description": "Agricultural web platform featuring automated crop disease detection, secure email verification, and farmer dashboard.",
+    "tags": ["React", "Apps Script", "REST API"],
+    "stars": 4,
+    "updated": "updated recently",
+    "image": "",
+    "icon_text": "SK",
+    "icon_bg": "#10B981",
+    "languages": [
+      { "name": "JavaScript", "percent": 68, "color": "#a78bfa" },
+      { "name": "HTML", "percent": 18, "color": "#22d3ee" },
+      { "name": "CSS", "percent": 14, "color": "#34d399" }
+    ]
+  },
+  {
+    "repo": "sayantan-pachal/Portfolio",
+    "title": "Personal Portfolio",
+    "description": "High-performance developer portfolio at sayantanpachal.me highlighting full-stack systems, animations, and UI.",
+    "tags": ["React", "TailwindCSS", "Vercel"],
+    "stars": 6,
+    "updated": "updated 1mo ago",
+    "image": "logo.svg",
+    "icon_text": "Sp",
+    "icon_bg": "#0284C7",
+    "languages": [
+      { "name": "JavaScript", "percent": 78, "color": "#a78bfa" },
+      { "name": "CSS", "percent": 16, "color": "#22d3ee" },
+      { "name": "HTML", "percent": 6, "color": "#34d399" }
+    ]
+  },
+  {
+    "repo": "sayantan-pachal/LearnStack",
+    "title": "LearnStack",
+    "description": "Educational web application providing curated study resources, skill-building guides, and academic roadmaps.",
+    "tags": ["Apps Script", "Google Sheets", "Custom Auth"],
+    "stars": 5,
+    "updated": "updated 2mo ago",
+    "image": "",
+    "icon_text": "LS",
+    "icon_bg": "#8B5CF6",
+    "languages": [
+      { "name": "JavaScript", "percent": 64, "color": "#a78bfa" },
+      { "name": "HTML", "percent": 22, "color": "#22d3ee" },
+      { "name": "CSS", "percent": 14, "color": "#34d399" }
+    ]
+  },
+  {
+    "repo": "ORION69/NCPOR-Polar-Digital-Twin",
+    "title": "Polar Digital Twin",
+    "description": "Interactive 3D Antarctic station management platform with dual-lane telemetry polling and supply chain workflows.",
+    "tags": ["Three.js", "React Three Fiber", "Telemetry"],
+    "stars": 8,
+    "updated": "updated 1mo ago",
+    "image": "",
+    "icon_text": "3D",
+    "icon_bg": "#06B6D4",
+    "languages": [
+      { "name": "TypeScript", "percent": 72, "color": "#a78bfa" },
+      { "name": "JavaScript", "percent": 20, "color": "#22d3ee" },
+      { "name": "CSS", "percent": 8, "color": "#34d399" }
+    ]
+  },
+  {
+    "repo": "ORION69/SAGAR-Ocean-X",
+    "title": "S.A.G.A.R. Ocean-X",
+    "description": "AI-implemented autonomous underwater anomaly detection pipeline built for real-time marine inspection.",
+    "tags": ["FastAPI", "PyTorch", "YOLOv8", "ONNX"],
+    "stars": 7,
+    "updated": "updated 1mo ago",
+    "image": "",
+    "icon_text": "AI",
+    "icon_bg": "#F59E0B",
+    "languages": [
+      { "name": "Python", "percent": 84, "color": "#a78bfa" },
+      { "name": "JavaScript", "percent": 11, "color": "#22d3ee" },
+      { "name": "Dockerfile", "percent": 5, "color": "#34d399" }
+    ]
+  },
+  {
+    "repo": "sayantan-pachal/CloudPort",
+    "title": "CloudPort GDG",
+    "description": "Serverless web registration portal engineered for the GDG BPPIMT Cloud Team selection workflow.",
+    "tags": ["Node.js", "Express", "Firestore", "Vercel"],
+    "stars": 3,
+    "updated": "updated 2w ago",
+    "image": "",
+    "icon_text": "CP",
+    "icon_bg": "#EC4899",
+    "languages": [
+      { "name": "JavaScript", "percent": 70, "color": "#a78bfa" },
+      { "name": "HTML", "percent": 18, "color": "#22d3ee" },
+      { "name": "CSS", "percent": 12, "color": "#34d399" }
+    ]
+  }
+]

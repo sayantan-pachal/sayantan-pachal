@@ -2,8 +2,12 @@ name: Generate GitHub Metrics
 
 on:
   schedule:
-    - cron: '0 0 * * *' # Runs at midnight UTC every day
-  workflow_dispatch: # Allows you to run it manually
+    - cron: '0 0 * * *'
+  push:
+    paths:
+      - 'projects.json'
+      - 'build_projects.py'
+  workflow_dispatch:
 
 permissions:
   contents: write
@@ -20,15 +24,17 @@ jobs:
         with:
           python-version: '3.10'
 
-      - name: Run Builder Script
+      - name: Run Builder Scripts
         env:
           GH_PAT: ${{ secrets.GH_PAT }}
-        run: python build_metrics.py
+        run: |
+          python build_metrics.py
+          python build_projects.py
 
       - name: Commit and Push SVGs
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add assets/stats.svg assets/streak.svg assets/langs.svg
-          git commit -m "chore: auto-update dynamic github metrics" || exit 0
+          git add assets/stats.svg assets/streak.svg assets/langs.svg assets/projects.svg
+          git commit -m "chore: auto-update dynamic github metrics and projects" || exit 0
           git push
