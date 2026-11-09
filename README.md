@@ -49,10 +49,10 @@ I enjoy **learning new technologies**, contributing to **open-source projects**,
 <table align="center" style="border: none; background: transparent;">
   <tr>
     <td align="center" style="border: none; padding: 5px;">
-      <img src="./stats.svg" height="165" alt="GitHub Stats"/>
+      <img src="./assets/stats.svg" height="165" alt="GitHub Stats"/>
     </td>
     <td align="center" style="border: none; padding: 5px;">
-      <img src="./streak.svg" height="165" alt="GitHub Streak"/>
+      <img src="./assets/streak.svg" height="165" alt="GitHub Streak"/>
     </td>
   </tr>
 </table>
@@ -60,7 +60,7 @@ I enjoy **learning new technologies**, contributing to **open-source projects**,
 <table align="center" style="border: none; background: transparent;">
   <tr>
     <td align="center" style="border: none; padding: 5px;">
-      <img src="./langs.svg" height="165" alt="Top Languages"/>
+      <img src="./assets/languages.svg" height="165" alt="Top Languages"/>
     </td>
   </tr>
 </table>
