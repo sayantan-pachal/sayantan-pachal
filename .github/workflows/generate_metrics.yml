@@ -29,6 +29,6 @@ jobs:
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add stats.svg streak.svg langs.svg
-          git commit -m "chore: auto-update github metrics" || exit 0
+          git add assets/stats.svg assets/streak.svg assets/langs.svg
+          git commit -m "chore: auto-update dynamic github metrics" || exit 0
           git push
