@@ -69,13 +69,13 @@
     <line x1="145" y1="52" x2="415" y2="52" class="divider" />
     <text x="466" y="56" text-anchor="end" class="live">● LIVE<animate attributeName="opacity" values="1;0.25;1" dur="1.6s" repeatCount="indefinite" /></text>
 
-    <!-- Metric Rows -->
+    <!-- Metric Rows (Variables Injected by Action) -->
     <g transform="translate(24, 80)">
-      <text y="0"><tspan class="key">Stars.Earned </tspan><tspan class="dots">................. </tspan><tspan class="val">{{STARS}}</tspan></text>
-      <text y="22"><tspan class="key">Commits.2026 </tspan><tspan class="dots">.............. </tspan><tspan class="val">{{COMMITS}}</tspan></text>
-      <text y="44"><tspan class="key">Pull.Requests </tspan><tspan class="dots">................ </tspan><tspan class="val">{{PRS}}</tspan></text>
-      <text y="66"><tspan class="key">Issues.Solved </tspan><tspan class="dots">................ </tspan><tspan class="val">{{ISSUES}}</tspan></text>
-      <text y="88"><tspan class="key">Public.Repos </tspan><tspan class="dots">................. </tspan><tspan class="val">{{REPOS}}</tspan></text>
+      <text y="0"><tspan class="key">Stars.Earned </tspan><tspan class="dots">................. </tspan><tspan class="val">0</tspan></text>
+      <text y="22"><tspan class="key">Total.Commits </tspan><tspan class="dots">................ </tspan><tspan class="val">177</tspan></text>
+      <text y="44"><tspan class="key">Pull.Requests </tspan><tspan class="dots">................ </tspan><tspan class="val">33</tspan></text>
+      <text y="66"><tspan class="key">Issues.Solved </tspan><tspan class="dots">................ </tspan><tspan class="val">1</tspan></text>
+      <text y="88"><tspan class="key">Public.Repos </tspan><tspan class="dots">................. </tspan><tspan class="val">19</tspan></text>
     </g>
 
     <!-- Right HUD Grade Badge -->
