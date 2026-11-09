@@ -60,7 +60,7 @@ I enjoy **learning new technologies**, contributing to **open-source projects**,
 <table align="center" style="border: none; background: transparent;">
   <tr>
     <td align="center" style="border: none; padding: 5px;">
-      <img src="./languages.svg" height="165" alt="Top Languages"/>
+      <img src="./langs.svg" height="165" alt="Top Languages"/>
     </td>
   </tr>
 </table>
