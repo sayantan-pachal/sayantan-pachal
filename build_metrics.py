@@ -22,8 +22,8 @@ query($login: String!) {
     contributionsCollection {
       totalCommitContributions
       restrictedContributionsCount
-      pullRequests(first: 1) { totalCount }
-      issues(first: 1) { totalCount }
+      totalPullRequestContributions
+      totalIssueContributions
       contributionCalendar {
         totalContributions
         weeks { contributionDays { contributionCount date } }
@@ -71,8 +71,8 @@ def build_svgs():
     # 1. PROCESS STATS
     total_stars = sum(r["stargazers"]["totalCount"] for r in repos)
     total_commits = contribs["totalCommitContributions"] + contribs["restrictedContributionsCount"]
-    total_prs = contribs["pullRequests"]["totalCount"]
-    total_issues = contribs["issues"]["totalCount"]
+    total_prs = contribs["totalPullRequestContributions"]
+    total_issues = contribs["totalIssueContributions"]
     total_repos = data["repositories"]["totalCount"]
 
     with open("stats.template.svg", "r", encoding="utf-8") as f:
