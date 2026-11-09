@@ -93,3 +93,8 @@ I enjoy **learning new technologies**, contributing to **open-source projects**,
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0072ff,100:00c6ff&height=120&section=footer"/>
 </p>
+
+
+<p align="center">
+  <img src="./assets/projects.svg" width="100%" alt="Sayantan Pachal Projects List" />
+</p>
