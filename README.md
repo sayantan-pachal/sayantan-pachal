@@ -3,6 +3,14 @@
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0072ff,100:00c6ff&height=200&width=full&section=header&text=Hi,%20I'm%20Sayantan...%20&fontSize=60&fontAlignY=35&fontColor=FFFACD" />
 </p>
 
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./profile-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="./profile-light.svg" />
+    <img alt="Sayantan Pachal — profile.sh --live" src="./profile-dark.svg" width="100%" />
+  </picture>
+</div>
+
 
 <p align="center">
   <b>CSE Student</b>  • <b>Full-Stack Developer</b> • <b>AI Engineer</b><br>
@@ -38,20 +46,23 @@ I love solving **algorithmic problems**, exploring **AI**, and creating projects
 I enjoy **learning new technologies**, contributing to **open-source projects**, and collaborating with other developers to **build impactful software**.
 
 <!-- STATS SIDE BY SIDE -->
-<table align="center">
-<tr>
-<td align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=sayantan-pachal&show_icons=true&theme=tokyonight&hide_border=true" height="165"/>
-</td>
-<td align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=sayantan-pachal&theme=tokyonight&hide_border=true" height="165"/>
-</td>
-</tr>
-</table>
-<table align="center">
-    <td align="center">
-      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sayantan-pachal&layout=compact&theme=tokyonight&hide_border=true" height="160"/>
+<table align="center" style="border: none; background: transparent;">
+  <tr>
+    <td align="center" style="border: none; padding: 5px;">
+      <img src="./assets/stats.svg" height="165" alt="GitHub Stats"/>
     </td>
+    <td align="center" style="border: none; padding: 5px;">
+      <img src="./assets/streak.svg" height="165" alt="GitHub Streak"/>
+    </td>
+  </tr>
+</table>
+
+<table align="center" style="border: none; background: transparent;">
+  <tr>
+    <td align="center" style="border: none; padding: 5px;">
+      <img src="./assets/languages.svg" height="165" alt="Top Languages"/>
+    </td>
+  </tr>
 </table>
 
 [![Sayantan's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=sayantan-pachal&theme=tokyo-night)](https://github.com/sayantan-pachal)
