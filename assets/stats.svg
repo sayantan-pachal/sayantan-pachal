@@ -72,8 +72,8 @@
     <!-- Metric Rows (Variables Injected by Action) -->
     <g transform="translate(24, 80)">
       <text y="0"><tspan class="key">Stars.Earned </tspan><tspan class="dots">................. </tspan><tspan class="val">0</tspan></text>
-      <text y="22"><tspan class="key">Total.Commits </tspan><tspan class="dots">................ </tspan><tspan class="val">186</tspan></text>
-      <text y="44"><tspan class="key">Pull.Requests </tspan><tspan class="dots">................ </tspan><tspan class="val">33</tspan></text>
+      <text y="22"><tspan class="key">Total.Commits </tspan><tspan class="dots">................ </tspan><tspan class="val">197</tspan></text>
+      <text y="44"><tspan class="key">Pull.Requests </tspan><tspan class="dots">................ </tspan><tspan class="val">37</tspan></text>
       <text y="66"><tspan class="key">Issues.Solved </tspan><tspan class="dots">................ </tspan><tspan class="val">1</tspan></text>
       <text y="88"><tspan class="key">Public.Repos </tspan><tspan class="dots">................. </tspan><tspan class="val">19</tspan></text>
     </g>
