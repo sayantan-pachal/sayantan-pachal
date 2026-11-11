@@ -70,7 +70,7 @@
     <rect x="24" y="68" width="492" height="12" rx="6" class="track" />
     <g clip-path="url(#barClip)">
       <rect x="24" y="68" width="428.0" height="12" fill="#f1e05a" />
-      <rect x="452.0" y="68" width="26.7" height="12" fill="#e34c26" />
+      <rect x="452.0" y="68" width="26.8" height="12" fill="#e34c26" />
       <rect x="478.8" y="68" width="22.4" height="12" fill="#663399" />
       <rect x="501.2" y="68" width="8.0" height="12" fill="#3572A5" />
       <rect x="509.2" y="68" width="3.7" height="12" fill="#f34b7d" />
