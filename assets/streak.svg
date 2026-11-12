@@ -70,7 +70,7 @@
     <!-- Col 1: Total Contributions -->
     <rect x="24" y="68" width="136" height="106" rx="8" class="hud-box" />
     <text x="92" y="92" text-anchor="middle" class="metric-lbl">TOTAL.CONTRIB</text>
-    <text x="92" y="126" text-anchor="middle" class="metric-val">275</text>
+    <text x="92" y="126" text-anchor="middle" class="metric-val">281</text>
     <text x="92" y="154" text-anchor="middle" class="metric-date">Nov 2025 - Present</text>
 
     <!-- Col 2: Current Streak (Center HUD with Ring) -->
