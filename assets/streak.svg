@@ -85,7 +85,7 @@
       <circle cx="0" cy="0" r="29" fill="none" stroke="url(#accent)" stroke-width="3.5" stroke-dasharray="145 185" stroke-linecap="round" transform="rotate(-90)">
         <animate attributeName="stroke-dashoffset" from="145" to="0" dur="1.4s" fill="freeze" />
       </circle>
-      <text x="0" y="8" text-anchor="middle" class="streak-val">3</text>
+      <text x="0" y="8" text-anchor="middle" class="streak-val">0</text>
     </g>
     <text x="245" y="162" text-anchor="middle" class="metric-lbl">CURRENT.STREAK</text>
 
