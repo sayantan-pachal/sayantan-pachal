@@ -69,32 +69,32 @@
     <!-- Multi-Language Progress Bar -->
     <rect x="24" y="68" width="492" height="12" rx="6" class="track" />
     <g clip-path="url(#barClip)">
-      <rect x="24" y="68" width="428.1" height="12" fill="#f1e05a" />
-      <rect x="452.1" y="68" width="26.8" height="12" fill="#e34c26" />
-      <rect x="478.8" y="68" width="22.3" height="12" fill="#663399" />
-      <rect x="501.2" y="68" width="8.0" height="12" fill="#3572A5" />
-      <rect x="509.2" y="68" width="3.7" height="12" fill="#f34b7d" />
+      <rect x="24" y="68" width="418.3" height="12" fill="#f1e05a" />
+      <rect x="442.3" y="68" width="34.1" height="12" fill="#e34c26" />
+      <rect x="476.4" y="68" width="21.8" height="12" fill="#663399" />
+      <rect x="498.2" y="68" width="11.1" height="12" fill="#3572A5" />
+      <rect x="509.4" y="68" width="3.6" height="12" fill="#f34b7d" />
     </g>
 
     <!-- Column 1 -->
     <g transform="translate(24, 106)">
       <circle cx="6" cy="-4" r="5" fill="#f1e05a" />
-      <text x="18" y="0"><tspan class="key">JavaScript </tspan><tspan class="dots">........... </tspan><tspan class="val">87.0%</tspan></text>
+      <text x="18" y="0"><tspan class="key">JavaScript </tspan><tspan class="dots">........... </tspan><tspan class="val">85.0%</tspan></text>
 
       <circle cx="6" cy="22" r="5" fill="#e34c26" />
-      <text x="18" y="26"><tspan class="key">HTML       </tspan><tspan class="dots">..... </tspan><tspan class="val">5.4%</tspan></text>
+      <text x="18" y="26"><tspan class="key">HTML       </tspan><tspan class="dots">..... </tspan><tspan class="val">6.9%</tspan></text>
 
       <circle cx="6" cy="48" r="5" fill="#663399" />
-      <text x="18" y="52"><tspan class="key">CSS        </tspan><tspan class="dots">.......... </tspan><tspan class="val">4.5%</tspan></text>
+      <text x="18" y="52"><tspan class="key">CSS        </tspan><tspan class="dots">.......... </tspan><tspan class="val">4.4%</tspan></text>
     </g>
 
     <!-- Column 2 -->
     <g transform="translate(284, 106)">
       <circle cx="6" cy="-4" r="5" fill="#3572A5" />
-      <text x="18" y="0"><tspan class="key">Python     </tspan><tspan class="dots">..... </tspan><tspan class="val">1.6%</tspan></text>
+      <text x="18" y="0"><tspan class="key">Python     </tspan><tspan class="dots">..... </tspan><tspan class="val">2.3%</tspan></text>
 
       <circle cx="6" cy="22" r="5" fill="#f34b7d" />
-      <text x="18" y="26"><tspan class="key">C++        </tspan><tspan class="dots">........ </tspan><tspan class="val">0.8%</tspan></text>
+      <text x="18" y="26"><tspan class="key">C++        </tspan><tspan class="dots">........ </tspan><tspan class="val">0.7%</tspan></text>
     </g>
   </g>
 
